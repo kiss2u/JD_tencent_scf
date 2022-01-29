@@ -7,6 +7,7 @@
 3. PAT依然使用Secrests
 4. TENCENT的SECRET_ID/SECRET_KEY请填入config分支的.env文件.
 5. 其余所有环境变量填入config分支的config.yml格式请照第一行填写(追加在后面,每个一行,英文冒号,注意冒号后方空格.bool值(true/false),请带引号, 如XXXX: 'false').
+6. config.yml内变量支持'#'注释,不需要可以直接注释掉保存
 
 ## 云函数部分常用变量说明(默认值见仓库serverless.yml):
 1. TENCENT_FUNCTION_NAME(Secret): 函数名字,修改后注意删除原来名字的函数,名字强烈建议自定义一个,不建议使用默认名称.
